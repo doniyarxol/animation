@@ -1,0 +1,41 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: card;
+    animation-duration: 5s;
+    animation-delay: 0.02s;
+
+}
+    
+@keyframes card{
+    0%{
+        margin-left: 0px;
+  
+}
+
+    25%{
+        margin-top: 0px;
+        margin-left: 400px;
+        transform: rotate(360deg);
+    }
+
+    50%{
+        margin-top: 200px;
+        margin-left: 400px;
+        background-color: blue;
+        border-radius: 55%;
+    }
+
+    75%{
+        margin-top: 200px;
+        margin-left: 0px;
+    }   
+
+    100%{
+        margin: 0;
+        
+    }
+
+
+}
